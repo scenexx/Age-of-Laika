@@ -13,6 +13,7 @@
 		8C64BFAF1AD1A3A900E41B07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C64BFAE1AD1A3A900E41B07 /* Images.xcassets */; };
 		8C64BFB21AD1A3A900E41B07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C64BFB01AD1A3A900E41B07 /* LaunchScreen.xib */; };
 		8C64BFBE1AD1A3A900E41B07 /* Age_of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64BFBD1AD1A3A900E41B07 /* Age_of_LaikaTests.swift */; };
+		8C64BFC81AD1A51E00E41B07 /* Laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C64BFC71AD1A51E00E41B07 /* Laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8C64BFB71AD1A3A900E41B07 /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C64BFBC1AD1A3A900E41B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C64BFBD1AD1A3A900E41B07 /* Age_of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_LaikaTests.swift; sourceTree = "<group>"; };
+		8C64BFC71AD1A51E00E41B07 /* Laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				8C64BFA61AD1A3A900E41B07 /* Info.plist */,
+				8C64BFC71AD1A51E00E41B07 /* Laika.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				8C64BFAD1AD1A3A900E41B07 /* Main.storyboard in Resources */,
 				8C64BFB21AD1A3A900E41B07 /* LaunchScreen.xib in Resources */,
+				8C64BFC81AD1A51E00E41B07 /* Laika.jpg in Resources */,
 				8C64BFAF1AD1A3A900E41B07 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
