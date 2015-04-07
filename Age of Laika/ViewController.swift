@@ -12,12 +12,20 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var humanYearsTextField: UITextField!
     @IBOutlet weak var dogYearsLabel: UILabel!
-    let conversion = 7
     
     @IBAction func convertButtonPressed(sender: AnyObject) {
         
-        let humanYears = humanYearsTextField.text.toInt()!
-        dogYearsLabel.text = "Dog years: \(humanYears * conversion)"
+        let humanYears = Double ((humanYearsTextField.text as NSString).doubleValue)
+        var dogYears:Double
+        
+        if humanYears > 2{
+            dogYears = ((humanYears - 2) * 4) + 21
+        }else{
+            dogYears = humanYears * 10.5
+        }
+        
+        dogYearsLabel.text = "Dog years: \(dogYears)"
+        humanYearsTextField.resignFirstResponder()
     }
     
     override func viewDidLoad() {
